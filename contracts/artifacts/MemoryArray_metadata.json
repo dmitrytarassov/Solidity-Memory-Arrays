@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "program",
+						"type": "address"
+					}
+				],
+				"name": "addProgram",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getAccessLevel_CORRECT",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "program",
+								"type": "address"
+							},
+							{
+								"internalType": "uint8",
+								"name": "level",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct MemoryArray.AccessLevel[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getAccessLevel_WRONG",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "program",
+								"type": "address"
+							},
+							{
+								"internalType": "uint8",
+								"name": "level",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct MemoryArray.AccessLevel[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "program",
+						"type": "address"
+					}
+				],
+				"name": "programExists",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "program",
+						"type": "address"
+					},
+					{
+						"internalType": "uint8",
+						"name": "level",
+						"type": "uint8"
+					}
+				],
+				"name": "setAccessLevel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MemoryArray.sol": "MemoryArray"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MemoryArray.sol": {
+			"keccak256": "0xf38db8256a7e909143ae8f6e987f1556871de3f20d0de17a252e189a548120e6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c584aef3235a10e141dd27f8d0e6b569201c16065633ce83c7ad915aa0fdf799",
+				"dweb:/ipfs/QmUPjXWaDm2Py37SwPyFyGUbj9op9X2yjXB5kbmA9Pbnbw"
+			]
+		}
+	},
+	"version": 1
+}
