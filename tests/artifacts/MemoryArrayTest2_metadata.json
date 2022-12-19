@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callCorrectMethod",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/MemoryArray_test.sol": "MemoryArrayTest2"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MemoryArray.sol": {
+			"keccak256": "0xf38db8256a7e909143ae8f6e987f1556871de3f20d0de17a252e189a548120e6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c584aef3235a10e141dd27f8d0e6b569201c16065633ce83c7ad915aa0fdf799",
+				"dweb:/ipfs/QmUPjXWaDm2Py37SwPyFyGUbj9op9X2yjXB5kbmA9Pbnbw"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0x198a94b8e0342a81c31fda8ba387964155802ef81807e01e83e2320682dce327",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://db7d9939731e6fe2030d53b80f57ce2c1f8044209c1c67e634e81160227d3019",
+				"dweb:/ipfs/QmRLYhZ2Y6bfh83QSD2hCnhVFejevzh77zUTohCCC8yCtu"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/MemoryArray_test.sol": {
+			"keccak256": "0x2997f0aca743c4604730093bf1608b65a6c05fdd84200b8d5d0b82c941967a5e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://06b4c41f71de7b84b16e2c840bd6e620c90375a9a31a637bbb94ca5e7764a586",
+				"dweb:/ipfs/QmWxYAM21dqqJNYpuE8YXdvRq6PLwCy73NVRLJ98jHGgof"
+			]
+		}
+	},
+	"version": 1
+}

@@ -87,11 +87,11 @@
 			]
 		},
 		"tests/MemoryArray_test.sol": {
-			"keccak256": "0xd56559d6af1104be3f239390ce33dcaaad0fc0a0f41b6d8d0b648a8e67c96874",
+			"keccak256": "0x2997f0aca743c4604730093bf1608b65a6c05fdd84200b8d5d0b82c941967a5e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://38c15be51e36dc81c242bdab54bddcc5aa2d2e42c6b58512f4c52374a4517acc",
-				"dweb:/ipfs/QmThLHTpsNSMLrCpgsrF5P9QAc5nDqRa8gExTm6pcnCE3E"
+				"bzz-raw://06b4c41f71de7b84b16e2c840bd6e620c90375a9a31a637bbb94ca5e7764a586",
+				"dweb:/ipfs/QmWxYAM21dqqJNYpuE8YXdvRq6PLwCy73NVRLJ98jHGgof"
 			]
 		}
 	},

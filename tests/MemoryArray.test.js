@@ -51,3 +51,35 @@ describe("MemoryArray", function () {
     }
   });
 });
+
+describe("MemoryArray2", function () {
+  let memoryArray;
+  
+  const program1 = "0x3877fbDe425d21f29F4cB3e739Cf75CDECf8EdCE";
+  const program1AccessLevel = 1;
+  let deployer;
+
+  before(async function() {
+    const MemoryArray = await ethers.getContractFactory("MemoryArray");
+    memoryArray = await MemoryArray.deploy();
+    await memoryArray.deployed();
+
+    const [_deployer] = await ethers.getSigners();
+    deployer = _deployer;
+  });
+
+  it("call correct method by steps", async function() {
+    const result = await memoryArray.getAccessLevel_CORRECT(deployer.address);
+    expect(result.length).to.equal(0);
+
+    await memoryArray.addProgram(program1);
+    const _result = await memoryArray.getAccessLevel_CORRECT(deployer.address);
+    expect(_result.length).to.equal(0);
+
+    await memoryArray.setAccessLevel(program1, program1AccessLevel);
+    const __result = await memoryArray.getAccessLevel_CORRECT(deployer.address);
+    expect(__result.length).to.equal(1);
+    expect(__result[0].program).to.equal(program1);
+    expect(__result[0].level.toString()).to.equal(program1AccessLevel.toString());
+  });
+});
